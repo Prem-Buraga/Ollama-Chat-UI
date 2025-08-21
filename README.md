@@ -41,5 +41,4 @@ The application will be available at http://localhost:3000
 
 Note: Open command promt and run below commands if another process is executing or failed to execute ollama.
   "set OLLAMA_HOST=127.0.0.1:11500"
-
-ollama serve 
+Next run this command: "ollama serve" 
