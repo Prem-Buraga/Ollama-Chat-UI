@@ -13,7 +13,9 @@ ollama-chat/
 ├─ frontend/        # Next.js frontend
 └─ README.md
 ```
-## run ollama in bacground: ollama serve
+## run ollama in bacground: 
+ollama serve
+
 ## Getting Started
 
 
@@ -37,7 +39,7 @@ The application will be available at http://localhost:3000
 
 
 
-<!-- Open command promt and run below commands another process is executing. -->
-<!-- OLLAMA_HOST=127.0.0.1:11500
+Note: Open command promt and run below commands another process is executing. -->
+ OLLAMA_HOST=127.0.0.1:11500
 
-ollama serve -->
+ollama serve 
