@@ -1,1 +1,28 @@
-node_modules
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/out/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Python / FastAPI
+backend/.venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+
+# General
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+dist/
+build/
+coverage/
