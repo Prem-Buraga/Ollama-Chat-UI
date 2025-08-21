@@ -43,3 +43,5 @@ Note: Open command promt and run below commands if another process is executing 
   "set OLLAMA_HOST=127.0.0.1:11500" .
 
 Next run this command: "ollama serve" 
+
+Demo Video: 
