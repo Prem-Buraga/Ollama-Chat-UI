@@ -13,7 +13,7 @@ ollama-chat/
 ├─ frontend/        # Next.js frontend
 └─ README.md
 ```
-## run ollama in bacground: 
+## run ollama in background: 
 ollama serve
 
 ## Getting Started
