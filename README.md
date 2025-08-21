@@ -44,4 +44,4 @@ Note: Open command promt and run below commands if another process is executing 
 
 Next run this command: "ollama serve" 
 
-Demo Video: 
+Demo Video: https://youtu.be/3DrXa9411PQ
