@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Clean, minimalistic, ChatGPT-like feeling */
+:root {
+  color-scheme: dark;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  @apply bg-canvas text-text;
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+}
+.scrollbar-thin::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: #0a0b0f;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: #2a2f3a;
+  border-radius: 8px;
+}
+
+.codeblock pre {
+  @apply p-4 rounded-xl bg-[#0b0d12] border border-border overflow-x-auto;
+}
+
+a {
+  @apply text-accent underline hover:opacity-80;
+}
+
+/* Message bubbles */
+.msg {
+  @apply rounded-2xl px-4 py-3 border border-border;
+}
+.msg-user {
+  @apply bg-[#0b0d12];
+}
+.msg-assistant {
+  @apply bg-[#111319];
+}
+
+/* Input area */
+.input {
+  @apply w-full resize-none bg-[#0b0d12] text-text rounded-2xl border border-border p-3 outline-none;
+}
